@@ -1,0 +1,52 @@
+.shadow-box {
+  height: 200px;
+  width: 200px;
+  background: red;
+  box-shadow: 5px 5px 5px green;
+}
+
+button {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  animation-name: btnAnm2;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  /* animation-direction: reverse; */
+}
+@keyframes btnAnm2 {
+  0% {
+    color: white;
+    /* border-radius: 0%; */
+  }
+  50% {
+    /* border-radius: 50%; */
+    color: green;
+  }
+  100% {
+    color: white;
+    /* border-radius: 0%; */
+  }
+}
+
+@keyframes btnAnm {
+  from {
+    color: white;
+    border-radius: 0%;
+  }
+  to {
+    border-radius: 50%;
+    color: green;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  button {
+    display: none;
+  }
+  .shadow-box {
+    display: none;
+  }
+}

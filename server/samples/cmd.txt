@@ -1,0 +1,29 @@
+d:
+cd mern
+npm run start
+
+d:
+cd mern
+npm run node1
+
+d:
+cd mern
+npm run node2
+
+d:
+cd mern
+npm run node3
+
+d:
+cd mern
+npm run node4
+
+d:
+cd mern
+npm run node5
+
+d:
+cd mern
+cd client
+npm run start
+

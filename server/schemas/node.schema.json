@@ -1,0 +1,7 @@
+{
+  _id
+  chain: Array of Blocks(objects),
+  pending_transactions: Array of transactions(objects),
+  current_node_url: string,
+  network_nodes: Array of network_nodes(strings)
+}

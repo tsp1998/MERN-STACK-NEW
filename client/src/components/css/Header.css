@@ -1,0 +1,9 @@
+ul li {
+  background-color: rgba(44, 32, 23, 0.2) !important;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+
+ul li a {
+  text-align: center;
+}

@@ -1,0 +1,6 @@
+{
+  _id
+  amount: number,
+  sender: hash(string),
+  receiver: hash(string)
+}

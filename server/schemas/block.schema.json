@@ -1,0 +1,8 @@
+{
+  _id
+  index: number,
+  timestamp: number,
+  nonce: number,
+  hash: string,
+  prev_block_hash: string
+}
